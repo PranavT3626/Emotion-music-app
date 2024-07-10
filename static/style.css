@@ -1,0 +1,97 @@
+body {
+    text-align: center;
+    background: linear-gradient(to right, #f7e1ff, #e0f7ff); /* New gradient background */
+    font-family: 'Arial', sans-serif;
+}
+
+h1 {
+    font-family: 'Arial', sans-serif;
+    color: #673ab7; /* New color */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.title {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.box {
+    background: linear-gradient(145deg, #ffcc66, #ffdd99); /* Original gradient yellow */
+    height: 330px;
+    width: 450px;
+    padding: 30px;
+    text-align: center;
+    font-size: 40px;
+    line-height: 220px;
+    margin: 10px 10px;
+    border: 2px solid #ffb84d; /* Darker yellow border */
+    border-radius: 10%;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2); /* Enhanced shadow effect */
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out, color 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.box:hover {
+    background-color: #ffa31a; /* More vibrant orange color on hover */
+    color: #fff; /* White text on hover */
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+input[type=radio]:checked + .box {
+    background-color: #673ab7; /* New vibrant deep purple color when selected */
+    color: white;
+}
+
+.btn {
+    width: 300px;
+    height: 60px;
+    background: linear-gradient(to right, #673ab7, #512da8); /* New gradient purple button */
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 30px; /* More rounded corners */
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.btn:hover {
+    background-color: #311b92; /* Darker purple on hover */
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+img {
+    margin-top: 50px;
+    height: 400px;
+    border: 2px solid #673ab7; /* New deep purple border */
+    border-radius: 30px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2); /* Enhanced shadow effect */
+    transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+.created-by {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    background: linear-gradient(to right, #673ab7, #512da8);
+    -webkit-background-clip: text;
+    background-clip: text; /* Standard property */
+    -webkit-text-fill-color: transparent; /* Webkit-specific text fill */
+    color: transparent; /* Fallback color */
+}
