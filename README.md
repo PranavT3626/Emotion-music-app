@@ -35,14 +35,14 @@ This project is made using the following languages and technologies, as recogniz
 1. Clone the repository:
    ```bash
    git clone https://github.com/PranavT3626/emotion-based-music-ai.git
-Usage
+## Usage
 Run the application:
 bash
 python app.py
 Allow the application to access your webcam for real-time emotion detection.
 Enjoy personalized music recommendations based on your current mood.
 
-Contributing
+## Contributing
 Contributions are welcome! If you have suggestions for improvements or want to add new features, feel free to fork the repository and submit a pull request.
 
 Fork the repository
