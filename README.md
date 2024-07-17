@@ -5,6 +5,14 @@ This project is an innovative application that recommends music based on the use
 
 **[Visit the Project](https://pranavt3626.github.io/Emotion-Based-Music-AI/)**
 
+## Screenshots
+
+### Emotion Detection
+![Emotion Detection](emotion-detection.png)
+
+### Real-Time Analysis
+![Real-Time Analysis](real-time-analysis.png)
+
 ## Table of Contents
 
 - [Features](#features)
@@ -35,6 +43,7 @@ This project is made using the following languages and technologies, as recogniz
 1. Clone the repository:
    ```bash
    git clone https://github.com/PranavT3626/emotion-based-music-ai.git
+
 ## Usage
 Run the application:
 bash
