@@ -10,9 +10,6 @@ This project is an innovative application that recommends music based on the use
 ### Emotion Detection
 ![Emotion Detection](emotion-detection.png)
 
-### Real-Time Analysis
-![Real-Time Analysis](real-time-analysis.png)
-
 ## Table of Contents
 
 - [Features](#features)
