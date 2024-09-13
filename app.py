@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request
 import numpy as np
 import cv2
-from keras.models import load_model
+from keras.models import load_model # type: ignore
 import webbrowser
 
 app = Flask(__name__)
@@ -61,4 +61,5 @@ def emotion_detect():
     return render_template("emotion_detect.html", data=prediction, link=link)
 
 if __name__ == "__main__":
+    app.run(debug=False)  # Set debug=False for production deployment
     app.run(debug=False)  # Set debug=False for production deployment

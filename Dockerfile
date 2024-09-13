@@ -21,4 +21,5 @@ RUN apt-get update && apt-get install -y \
 EXPOSE 5000
 
 # Run app.py when the container launches
+# Run the application with Gunicorn
 CMD ["gunicorn", "--bind", "0.0.0.0:5000", "app:app"]
